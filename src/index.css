@@ -13,16 +13,32 @@ code {
 }
 
 .layout {
+<<<<<<< HEAD
+  width: 100%;
+  height: 100%;
+  
+  
+  box-sizing: border-box;
+=======
   width: 90%;
   margin: 0 auto;
+>>>>>>> 01a6c4c7161be328651f72ec75cfdf47dd6f9282
 }
 
 .header {
   display:flex;
+<<<<<<< HEAD
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid black;
+  background: #f5f5f5;
+=======
   height: 132px;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid black;
+>>>>>>> 01a6c4c7161be328651f72ec75cfdf47dd6f9282
 }
 
 .header .logo {
@@ -36,7 +52,11 @@ code {
   font-weight: bolder;
   margin-top: -8px;
   color: #d0550d;
+<<<<<<< HEAD
+  padding-left: 30px;
+=======
  
+>>>>>>> 01a6c4c7161be328651f72ec75cfdf47dd6f9282
 }
 
 .header h3 {
@@ -80,7 +100,11 @@ code {
 
 
 .container {
+<<<<<<< HEAD
+  min-height: 70%;
+=======
   min-height: 500px;
+>>>>>>> 01a6c4c7161be328651f72ec75cfdf47dd6f9282
 }
 
 
@@ -91,7 +115,11 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+  height: 10%;
+=======
   min-height: 70px;
+>>>>>>> 01a6c4c7161be328651f72ec75cfdf47dd6f9282
   font-style: italic;
   font-weight: 400;
 }

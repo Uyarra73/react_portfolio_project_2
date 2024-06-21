@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Inicio = () => {
   return (
     <div>
+
       <h1>Hola! Soy Alberto Rosell y soy desarrollador Web</h1>
       <br/>
       <h2>Te ayudo a desarrolladar to proyecto web desde cero. <Link to='/contacto'>Contacta conmigo!</Link></h2>
