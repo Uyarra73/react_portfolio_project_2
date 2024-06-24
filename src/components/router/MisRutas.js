@@ -7,6 +7,7 @@ import Curriculum from '../Curriculum';
 import Contacto from '../Contacto';
 import HeaderNav from '../layout/HeaderNav';
 import Footer from '../layout/Footer';
+import Error from '../Error';
 
 
 const MisRutas = () => {
@@ -24,6 +25,7 @@ const MisRutas = () => {
                 <Route path="/servicios" element={<Servicios />} />
                 <Route path="/curriculum" element={<Curriculum />} />
                 <Route path="/contacto" element={<Contacto />} />
+                <Route path="*" element={<Error />} />
             </Routes>
         </section>
 
