@@ -185,15 +185,31 @@ textarea {
 
 .trabajos {
   display: flex;
-  border: 3px solid black;
+  border: 2px solid black;
+  border-radius: 5px;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 15px;
   
 }
 
+.home a {
+  color: white
+}
 .trabajo {
   text-align: center;
+  margin: 20px auto;
+}
+
+.trabajos a {
+  text-decoration: none;
+  color:#d0550d;
+  font-weight: 700;
+
+}
+
+.trabajos a:hover {
+  color: #654505;
 }
 
 
