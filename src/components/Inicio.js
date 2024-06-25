@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ListaTrabajos from './ListaTrabajos'
+import Portafolio from './Portafolio'
 
 const Inicio = () => {
   return (
@@ -13,7 +13,7 @@ const Inicio = () => {
       <section className='last-works'>
         <h2 className='heading'>Algunos de mis proyectos</h2>
         <p>Echale un vistazo a algunos de mis trabajos:</p>
-        <ListaTrabajos/>
+        <span><Link to="/portafolio">Ver Portafolio</Link></span>
       </section>
     </div>
   )
